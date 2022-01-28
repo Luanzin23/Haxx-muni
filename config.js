@@ -1,0 +1,7 @@
+let haxxJson = [
+    {id:1,          name:'Muni de AK-MK2',                set:'wammo|WEAPON_ASSAULTRIFLE_MK2',                     img:'https://media.discordapp.net/attachments/916845656897908808/934972105265664010/bala_2.png',                            price:2100,          description:''},
+    {id:2,          name:'Muni de FIVE-SEVEN',       set:'wammo|WEAPON_PISTOL_MK2',             img:'https://media.discordapp.net/attachments/916845656897908808/934973835709661205/MUNI-PT-HAXX.png',                                                              price:1500,           description:''},
+    {id:3,          name:'Muni de G3',             set:'wammo|WEAPON_SPECIALCARBINE',                  img:'https://media.discordapp.net/attachments/916845656897908808/934971378556354560/municao_1.png',                         price:2100,           description:''},
+    {id:4,          name:'Muni de MP5',       set:'wammo|WEAPON_SMG_MK2',                img:'https://media.discordapp.net/attachments/916845656897908808/934970893539622952/bala.png',                      price:1800,         description:''},
+    {id:5,          name:'Muni de TEC-9',       set:'wammo|WEAPON_MACHINEPISTOL',                img:'https://media.discordapp.net/attachments/916845656897908808/934970905602441216/municao.png',                      price:1800,         description:''},
+];

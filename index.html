@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HAXX VENDA DE MUNI POR NUI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="actionmenu">
+        <div id="topo">            
+            <img id="logo" src="https://media.discordapp.net/attachments/916845656897908808/935254700125741066/haxx_logo_muni.png" alt="">
+            <img src="https://media.discordapp.net/attachments/916845656897908808/934657996192116756/carrinho-de-compras-de-design-xadrez.png" alt="" id="carrinho">
+            <div id="quantidade">0</div>
+            <div class="menu-closer">VOLTAR</div>
+        </div>
+        <aside>
+            <div class="cart--area">
+                <h1>Seu Pedido</h1>
+                <div class="cart"></div>
+                <div class="cart--details">
+                    <div class="cart--totalitem total big">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div id="finalizando" class="cart--finalizar" >Finalizar a compra</div>
+                </div>
+            </div>
+        </aside>
+        <div class="models">
+            <div class="haxx-item">
+                <a href="">
+                    <div class="haxx-item--img"><img src="" /></div>
+                    <div class="haxx-item--add">ADICIONAR</div>
+                </a>
+                <div class="haxx-item--price">R$ --</div>
+                <div class="haxx-item--name">--</div>
+                <!-- <div class="haxx-item--desc">--</div> -->
+            </div>
+            <div class="cart--item">
+                
+                <img src="" />
+                <div class="cart--item-nome">--</div>
+                <div class="cart--item--qtarea">
+                    <button class="cart--item-qtmenos">-</button>
+                    <div class="cart--item--qt">1</div>
+                    <button class="cart--item-qtmais">+</button>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="menu-openner"><span>0</span>🛒</div>
+        </header>
+        <main>
+            <h1>Produtos</h1>
+            
+            <div class="haxx-area"></div>
+        </main>
+        
+        <div class="haxxWindowArea">
+            <div class="haxxWindowBody">
+                <div class="haxxInfo--cancelMobileButton">Voltar</div>
+                <div class="haxxBig">
+                    <img src="" />
+                </div>
+                <div class="haxxInfo">
+                    <h1>--</h1>
+                    <div class="haxxInfo--desc">--</div>
+                    <div class="haxxInfo--pricearea">
+                        <div class="haxxInfo--sector">Preço</div>
+                        <div class="haxxInfo--price">
+                            <div class="haxxInfo--actualPrice">R$ --</div>
+                            <div class="haxxInfo--qtarea">
+                                <button class="haxxInfo--qtmenos" style="display: none;">-</button>
+                                <input type="text" name="quantidade" id="quanti">
+                                <button class="haxxInfo--qtmais"  style="display: none;">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="haxxInfo--addButton">Adicionar ao carrinho</div>
+                    <div class="haxxInfo--cancelButton">Cancelar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
