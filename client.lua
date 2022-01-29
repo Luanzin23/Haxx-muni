@@ -35,14 +35,14 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- LOCAL DE ONDE HAVERA VENDA DE MUNI
 -----------------------------------------------------------------------------------------------------------------------------------------
-local marcacoes = {
+local haxxmuni = {
 
 	{ 46.63,-1749.7,29.64 } ---LOCALIZACAO ALTERAVEL 
 }
 
 RegisterCommand('haxxmuni',function(source,args)
 	SetNuiFocus(false,false)
-	for _,mark in pairs(marcacoes) do
+	for _,mark in pairs(haxxmuni) do
 		local ped = PlayerPedId()
 		local x,y,z = table.unpack(mark)
 		local distance = GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),x,y,z,true)
@@ -87,7 +87,7 @@ RegisterCommand("locmuni",function(source,args)
 
     if haxx then
         TriggerEvent("Notify","aviso","Adicionado as localizacoes de vendas de muni",3000)
-        for k,v in pairs(marcacoes) do
+        for k,v in pairs(haxxmuni) do
             blips[k] = AddBlipForCoord(v[1],v[2],v[3])
             SetBlipSprite(blips[k],v[4])
             SetBlipColour(blips[k],v[5])
